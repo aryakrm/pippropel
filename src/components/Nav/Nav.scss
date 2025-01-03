@@ -1,0 +1,27 @@
+.Nav {
+  width: 100%;
+  background-color: #1e0644;
+  padding: 0.2rem 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  a {
+    img {
+      width: 7rem;
+    }
+  }
+
+  .nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    a {
+      color: #deb67f;
+      &:hover {
+        color: white;
+        opacity: 0.9;
+      }
+    }
+  }
+}
